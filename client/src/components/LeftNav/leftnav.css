@@ -1,0 +1,40 @@
+.navv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    min-height: 100vh;
+    background-color: #222;
+    text-align: center;
+}
+/* .navv a{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+} */
+.navv a i{
+    /* padding : 0.5em; */
+}
+.navv a:hover i{
+    color: #ffc107;
+}
+.navv a::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    transform: translate(100px,-50%);
+    white-space: nowrap;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #222;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    color: #ffc107;
+}
+.navv a:hover::after{
+    visibility: visible;
+    transform: translate(10px,-50%);
+    opacity: 1;
+}

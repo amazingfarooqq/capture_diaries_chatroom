@@ -1,0 +1,120 @@
+.chatbox {
+    background-color: rgb(17, 24, 31);
+}
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.box-header.with-border {
+    /* border-bottom: 1px solid #f4f4f4; */
+}
+.box-header .box-title {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+}
+.box-header>.box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.profileinfo{
+    right: 50px;
+    width: 90px;
+    /* height: 100px; */
+    background-color: gray;
+    position: fixed;
+    right: 20px;
+    transition: .5s;
+    overflow: hidden;
+    border-radius: 7px;
+    overflow: hidden;
+    z-index: 111;
+}
+.form-control {
+    background-color: rgb(17, 24, 31);
+    color: white !important;
+    border: none;
+    font-size: 22px;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border-top-left-radius: 14px !important;
+    border-bottom-left-radius: 14px !important;
+}
+.form-control:focus {
+    background-color: rgb(17, 24, 31);
+    border: none;
+    border: 0px;
+}
+
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid rgb(52, 62, 71);
+    padding: 5px;
+    background-color: rgba(31, 41, 49, 0.631);
+}
+.direct-chat-messages {
+    -webkit-transform: translate(0,  0);
+    -ms-transform: translate(0,  0);
+    -o-transform: translate(0,  0);
+    transform: translate(0,  0);
+    padding: 10px;
+    /* height: 250px; */
+    overflow: auto;
+}
+.direct-chat-msg {
+    margin-bottom: 15px;
+}
+.direct-chat-text {
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 10px;
+    background: rgba(31, 41, 49, 0.631);
+    border: 1px solid rgb(31, 41, 50);
+    margin: 5px 0 0 50px;
+    color: rgb(190, 190, 190);
+
+}
+.direct-chat-text:after, .direct-chat-text:before {
+    position: absolute;
+    right: 100%;
+    top: 15px;
+    border: solid transparent;
+    border-right-color: rgb(31, 41, 50);
+    content: ' ';
+    height: 0;
+    width: 0;
+    pointer-events: none;
+}
+.direct-chat-text:after {
+    border-width: 5px;
+    margin-top: -5px;
+}
+.direct-chat-text:before {
+    border-width: 6px;
+    margin-top: -6px;
+}
+.direct-chat-img {
+    border-radius: 50%;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.direct-chat-info {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.direct-chat-name {
+    font-weight: 600;
+}
+.direct-chat-timestamp {
+    color: #999;
+}

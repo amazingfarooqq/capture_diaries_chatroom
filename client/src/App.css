@@ -1,0 +1,13 @@
+.Available-bg {
+    background-color: rgb(41, 98, 75) !important;
+}
+.BRB-bg {
+    background-color: rgb(212, 150, 37) !important;
+}
+.NODM-bg {
+    background-color: rgb(109, 52, 52) !important;
+}
+
+.active-available-text {
+    color: #4CAF50 !important;
+}

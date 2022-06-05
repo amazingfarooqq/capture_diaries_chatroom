@@ -1,0 +1,38 @@
+.leftarea {
+    /* padding-top: 20px; */
+    height: 91vh;
+    background-color: rgb(21, 32, 43);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 230px;
+    padding-right: 5px !important;
+    padding-left: 10px !important;
+    margin: 0px;
+    padding: 0px;
+} 
+
+
+.active-brb {
+    background-color: rgb(90, 85, 53) !important;
+}
+.active-noDM {
+    background-color: rgb(90, 53, 53) !important;
+}
+
+.onlinesingleuser {
+    background-color: rgb(44, 50, 56);
+    cursor: pointer;
+    color: whitesmoke;
+    transform: scale(.98);
+    width: 50%;
+
+    border-radius: 0px !important;
+    /* margin: 2px; */
+
+
+}
+
+.onlinesingleuser:hover {
+    background-color: rgb(48, 54, 60);
+    color: whitesmoke;
+}
